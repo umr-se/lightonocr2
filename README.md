@@ -6,7 +6,7 @@ The script loads the model from a local directory and performs inference on a pr
 
 ---
 
-## 🚀 Features
+## Features
 
 * Runs fully offline using locally stored model weights
 * Automatic GPU detection (falls back to CPU if unavailable)
@@ -16,7 +16,7 @@ The script loads the model from a local directory and performs inference on a pr
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Make sure you have Python 3.9+ installed.
 
@@ -34,7 +34,7 @@ This project relies on:
 
 ---
 
-## 📥 Model Download
+## Model Download
 
 Download the LightOnOCR-2 model from Hugging Face and place it in:
 
@@ -47,7 +47,7 @@ https://huggingface.co/lightonai/LightOnOCR-2-1B
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -61,7 +61,7 @@ project/
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Run with image path argument
 
@@ -72,14 +72,14 @@ python ocr_script.py sample.png
 ### Or run interactively
 
 ```bash
-python ocr_script.py
+python image.py
 ```
 
 You will be prompted to enter the image path.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Loads the LightOnOCR model from disk
 2. Opens the image and converts it to RGB
@@ -90,7 +90,7 @@ You will be prompted to enter the image path.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 You can edit these values in the script:
 
@@ -104,7 +104,7 @@ MAX_NEW_TOKENS = 200
 
 ---
 
-## 🖥 GPU Support
+## GPU Support
 
 The script automatically selects:
 
@@ -115,7 +115,7 @@ For best performance, use a GPU with at least **8GB VRAM**.
 
 ---
 
-## 📄 Output
+## Output
 
 The extracted text is:
 
@@ -127,51 +127,16 @@ The extracted text is:
 ## Results
 ![test](https://github.com/user-attachments/assets/2ff4ba84-329f-49c8-a0e0-c878e586906f)
 [output.txt](https://github.com/user-attachments/files/25456477/output.txt)
-# CIF / KYC UPDATION FORM FOR INDIVIDUALS
-
-## Purpose of Updation:
-- [x] On Customer’s Request
-- [ ] Periodic Review by Branch (for section 3 only)
-
-## Date:
-10/05/2023
-
-## CIF No:
-284C224
-
-## Customer Name:
-SHAZIA BIBI
-
-The Branch Manager,  
-HBL Microfinance Bank Ltd.,  
-DERA GHAZI KHAN BRANCH  
-Branch Code: 054
 
 ---
 
-## Due to CELL UPDATION / ADDRESS SHORT reason, I/we would like to update my / our below mentioned information (as applicable) into you respective records.
-
----
-
-### Section: 1 : If Address / Contact Details are changed
-
-#### New Address Type:
-- [x] Current
-- [ ] Permanent
-- [ ] Both Current & Permanent
-
-#### Current Address:
-- Address Line1: PO CH
-
----
-
-## 📜 License
+## License
 
 Check the Hugging Face model page for license information before commercial use.
 
 ---
 
-## 🤝 Credits
+## Credits
 
 * LightOnAI for the OCR model
 * Hugging Face for hosting and tooling
